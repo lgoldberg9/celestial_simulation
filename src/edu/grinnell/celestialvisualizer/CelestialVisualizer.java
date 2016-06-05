@@ -20,7 +20,7 @@ public class CelestialVisualizer {
     private static final boolean USE_QTREE = true;
     
     /** The NBody model that we will use for the simulation */
-    private static final NBody MODEL = NBodyExamples.COLLISIONS;
+    private static final NBody MODEL = NBodyExamples.COLLISION;
     
     /** The frames per second of the simulation, i.e., how often we update */
     private static final int FPS = 60;
